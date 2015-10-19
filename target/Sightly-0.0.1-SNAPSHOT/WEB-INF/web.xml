@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress ALL -->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         metadata-complete="true" version="3.0">
+    <display-name>Sightly</display-name>
+    <description>Netcentric Slightly test</description>
+
+    <servlet>
+        <servlet-name>SlightlyServlet</servlet-name>
+        <servlet-class>servlet.slightlyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SlightlyServlet</servlet-name>
+        <url-pattern>/slightly</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
